@@ -30,7 +30,8 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 				templateUrl: "templates/header.html"
 			},
 			"container": {
-				templateUrl: "templates/comic-detail.html"
+				templateUrl: "templates/comic-detail.html",
+				controller: "ComicDetailCtrl"
 			},
 			"ads": {
 				templateUrl: "templates/ads.html"
