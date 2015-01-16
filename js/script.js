@@ -24,7 +24,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		}
 	})
 	.state('chapter', {
-		url: '/comics/{comic}',
+		url: '/comics/:comic',
 		views: {
 			"header": {
 				templateUrl: "templates/header.html"
