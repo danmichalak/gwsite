@@ -1,4 +1,13 @@
 <div id="content">
 	<br>
-	Home Page Content
+	<ul ng-repeat="post in posts" class="list">
+		<li>
+			<div class="newsTitle">{{post.title}}</div>
+			<div class="newsAuthor">Posted by {{post.author}}</div>
+			<div class="newsDate">{{post.day}} {{post.month}} {{post.year}}</div>
+			<br>
+			<div class="newsBody">{{post.body}}</div>
+			<br><br>
+		</li>
+	</ul>
 </div>

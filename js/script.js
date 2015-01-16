@@ -6,13 +6,14 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 
 	$stateProvider
 	.state('home', {
-		url: "/",
+		url: '/',
 		views: {
 			"header": {
 				templateUrl: "templates/header.html"
 			},
 			"container": {
-				templateUrl: "templates/news-list.html"
+				templateUrl: "templates/news-list.html",
+				controller: "NewsListCtrl"
 			},
 			"ads": {
 				templateUrl: "templates/ads.html"
@@ -23,7 +24,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		}
 	})
 	.state('archive', {
-		url: "archive",
+		url: 'archive',
 		views: {
 			"header": {
 				templateUrl: "templates/header.html"
@@ -40,7 +41,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		}
 	})
 	.state('about', {
-		url: "/about",
+		url: '/about',
 		views: {
 			"header": {
 				templateUrl: "templates/header.html"
@@ -57,7 +58,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		}
 	})
 	.state('cast', {
-		url: "/cast",
+		url: '/cast',
 		views: {
 			"header": {
 				templateUrl: "templates/header.html"
@@ -74,7 +75,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		}
 	})
 	.state('contact', {
-		url: "/contact",
+		url: '/contact',
 		views: {
 			"header": {
 				templateUrl: "templates/header.html"
@@ -89,5 +90,15 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 				templateUrl: "templates/footer.html"
 			}
 		}
+	});
+});
+
+gwSite.controller('NewsListCtrl', function ($scope, $http){
+	var urlStr = 'json/news.json';
+
+	$http.get(urlStr).success(function(data) {
+
+		$scope.posts = data.reverse();
+
 	});
 });
