@@ -24,7 +24,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		}
 	})
 	.state('chapter', {
-		url: '/comics/{series}',
+		url: '/comics/{comic}',
 		views: {
 			"header": {
 				templateUrl: "templates/header.html"
@@ -101,4 +101,8 @@ gwSite.controller('NewsListCtrl', function ($scope, $http){
 		$scope.posts = data.reverse();
 
 	});
+});
+
+gwSite.controller('ComicDetailCtrl', function ($scope, $routeParams){
+	console.log($routeParams);
 });
