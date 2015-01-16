@@ -94,3 +94,7 @@ body {
 	border-width: 5px;
 	border-color: black;
 }
+
+#gwBanner {
+	width: 800px;
+}
