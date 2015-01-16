@@ -2,7 +2,7 @@ var gwSite = angular.module('gwSite', ['ui.router']);
 
 gwSite.config(function($stateProvider, $urlRouterProvider){
 	
-	$urlRouterProvider.otherwise("/");
+	$urlRouterProvider.otherwise('/');
 
 	$stateProvider
 	.state('home', {
@@ -23,8 +23,8 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			}
 		}
 	})
-	.state('gw', {
-		url: 'comics/gw',
+	.state('chapters', {
+		url: 'comics/{series}',
 		views: {
 			"header": {
 				templateUrl: "templates/header.html"
