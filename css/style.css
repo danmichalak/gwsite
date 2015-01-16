@@ -61,6 +61,10 @@ body {
 	overflow: hidden;
 }
 
+#gwBanner {
+	width: 800px;
+}
+
 #navBar {
 	width: 720px;
 	margin-left: auto;
@@ -95,6 +99,21 @@ body {
 	border-color: black;
 }
 
-#gwBanner {
-	width: 800px;
+.newsAuthor {
+	font-size: 75%;
+	font-weight: bold;
+}
+
+.newsBody {
+	width: 760px;
+}
+
+.newsDate {
+	font-size: 75%;
+	font-weight: bold;
+}
+
+.newsTitle {
+	font-size: 150%;
+	font-weight: bold;
 }
