@@ -7,22 +7,72 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	$stateProvider
 	.state('home', {
 		url: "/",
-		template: "Home Page"
+		views: {
+			"header": {
+				template: "Header"
+			},
+			"container": {
+				template: "Home Page"
+			},
+			"footer": {
+				template: "Footer"
+			}
+		}
 	})
 	.state('archive', {
 		url: "/archive",
-		template: "Archive Page"
+		views: {
+			"header": {
+				template: "Header"
+			},
+			"container": {
+				template: "Archive Page"
+			},
+			"footer": {
+				template: "Footer"
+			}
+		}
 	})
 	.state('about', {
 		url: "/about",
-		template: "About Page"
+		views: {
+			"header": {
+				template: "Header"
+			},
+			"container": {
+				template: "About Page"
+			},
+			"footer": {
+				template: "Footer"
+			}
+		}
 	})
 	.state('cast', {
 		url: "/cast",
-		template: "Cast Page"
+		views: {
+			"header": {
+				template: "Header"
+			},
+			"container": {
+				template: "Cast Page"
+			},
+			"footer": {
+				template: "Footer"
+			}
+		}
 	})
 	.state('contact', {
 		url: "/contact",
-		template: "Contact Page"
+		views: {
+			"header": {
+				template: "Header"
+			},
+			"container": {
+				template: "Contact Page"
+			},
+			"footer": {
+				template: "Footer"
+			}
+		}
 	});
 });
