@@ -23,10 +23,10 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		url: "/archive",
 		views: {
 			"header": {
-				template: "Header"
+				templateUrl: "templates/header.html"
 			},
 			"container": {
-				template: "Archive Page"
+				templateUrl: "templates/comic-detail.html"
 			},
 			"footer": {
 				template: "Footer"
@@ -37,10 +37,10 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		url: "/about",
 		views: {
 			"header": {
-				template: "Header"
+				templateUrl: "templates/header.html"
 			},
 			"container": {
-				template: "About Page"
+				templateUrl: "templates/about.html"
 			},
 			"footer": {
 				template: "Footer"
@@ -51,10 +51,10 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		url: "/cast",
 		views: {
 			"header": {
-				template: "Header"
+				templateUrl: "templates/header.html"
 			},
 			"container": {
-				template: "Cast Page"
+				templateUrl: "templates/cast.html"
 			},
 			"footer": {
 				template: "Footer"
@@ -65,10 +65,10 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		url: "/contact",
 		views: {
 			"header": {
-				template: "Header"
+				templateUrl: "templates/header.html"
 			},
 			"container": {
-				template: "Contact Page"
+				templateUrl: "templates/contact.html"
 			},
 			"footer": {
 				template: "Footer"
