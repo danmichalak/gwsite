@@ -94,6 +94,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	});
 });
 
+// Retrieves the list of news stories and displays them in reverse order (latest to newest)
 gwSite.controller('NewsListCtrl', function ($scope, $http){
 	var urlStr = 'json/news.json';
 
@@ -104,6 +105,12 @@ gwSite.controller('NewsListCtrl', function ($scope, $http){
 	});
 });
 
+// Retrieves the appropriate json comic chapter list based on state parameters
 gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams){
-	console.log($stateParams);
+	//console.log($stateParams);
+	$scope.comic = $stateParams.comic;
+
+	var urlStr = 'json/' + $scope.comic + 'Chapters.json';
+
+	console.log(urlStr);
 });
