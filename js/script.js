@@ -111,7 +111,7 @@ gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams){
 
 	var urlStr = 'json/' + $scope.comic + 'Chapters.json';
 
-	$http.get(urlStr).success(functiond(data) {
+	$http.get(urlStr).success(function(data) {
 		$scope.chapters = data;
 		console.log(data);
 	});
