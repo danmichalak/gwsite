@@ -9,7 +9,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		url: "/",
 		views: {
 			"header": {
-				template: "Header"
+				templateUrl: "templates/header.html"
 			},
 			"container": {
 				templateUrl: "templates/news-list.html"
