@@ -24,7 +24,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		}
 	})
 	.state('archive', {
-		url: 'archive',
+		url: 'comics/gw',
 		views: {
 			"header": {
 				templateUrl: "templates/header.html"
