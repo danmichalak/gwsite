@@ -42,7 +42,6 @@ body {
 #footer {
 	display: block;
 	width: 100%;
-	height: 100px;
 	background-color: black;
 }
 
@@ -129,5 +128,5 @@ body {
 }
 
 .footerCell {
-	padding: 20px;
+	padding: 15px;
 }
