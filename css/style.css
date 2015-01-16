@@ -43,7 +43,6 @@ body {
 	display: block;
 	width: 100%;
 	height: 100px;
-	color: white;
 	background-color: black;
 }
 
@@ -121,4 +120,14 @@ body {
 
 #footerContent {
 	margin-left: 10px;
+	color: white;
+}
+
+#footerContent {
+	margin-left: 10px;
+	color: white;
+}
+
+.footerLink:link, .footerLink:visited {
+	color: white;
 }
