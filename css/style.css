@@ -59,6 +59,11 @@ body {
 	overflow: hidden;
 }
 
+.listTitle {
+	font-size: 125%;
+	font-weight: bold;	
+}
+
 #gwBanner {
 	width: 800px;
 }
