@@ -117,3 +117,8 @@ body {
 	font-size: 150%;
 	font-weight: bold;
 }
+
+
+#footerContent {
+	margin-left: 10px;
+}
