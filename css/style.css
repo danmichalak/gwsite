@@ -123,16 +123,11 @@ body {
 	color: white;
 }
 
-.footerTitle {
-	display: block;
-	float: left;
-	font-weight: bold;
-	color: white;
-}
-
 .footerLink:link, .footerLink:visited {
-	display: block;
-	float: left;
 	color: white;
 	text-decoration: none;
+}
+
+.footerCell {
+	padding: 20px;
 }
