@@ -52,10 +52,13 @@ body {
 	overflow: hidden;
 }
 
+.navItem {
+	float: left;
+}
+
 .navLink {
 	display: block;
 	width: 100px;
 	height: 50px;
 	background-color: black;
 }
-
