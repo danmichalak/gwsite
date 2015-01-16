@@ -113,5 +113,6 @@ gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams, $http){
 
 	$http.get(urlStr).success(function(data) {
 		$scope.chapters = data;
+		console.log($scope.chapters);
 	});
 });
