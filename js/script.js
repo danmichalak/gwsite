@@ -23,8 +23,8 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			}
 		}
 	})
-	.state('gw', {
-		url: '/comics/gw',
+	.state('chapter', {
+		url: '/comics/{series}',
 		views: {
 			"header": {
 				templateUrl: "templates/header.html"
