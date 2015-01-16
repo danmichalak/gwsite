@@ -104,6 +104,6 @@ gwSite.controller('NewsListCtrl', function ($scope, $http){
 	});
 });
 
-gwSite.controller('ComicDetailCtrl', function ($scope, $routeParams){
-	console.log($routeParams.comic);
+gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams){
+	console.log($stateParams);
 });
