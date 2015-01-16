@@ -133,7 +133,6 @@ body {
 .footerLink:link, .footerLink:visited {
 	display: block;
 	float: left;
-	margin-left: 20px;
 	color: white;
 	text-decoration: none;
 }
