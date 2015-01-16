@@ -123,8 +123,10 @@ body {
 	color: white;
 }
 
-#footerContent {
-	margin-left: 10px;
+.footerTitle {
+	display: block;
+	float: left;
+	font-weight: bold;
 	color: white;
 }
 
