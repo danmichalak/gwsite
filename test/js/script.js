@@ -12,7 +12,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 				template: "Header"
 			},
 			"container": {
-				template: "Home Page"
+				templateUrl: "templates/news-list.html"
 			},
 			"footer": {
 				template: "Footer"
