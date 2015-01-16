@@ -1,0 +1,22 @@
+#header {
+	display: block;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: red;
+}
+
+#container {
+	display: block;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: cyan;
+}
+
+#footer {
+	display: block;
+	width: 100%;
+	color: white;
+	background-color: black;
+}
