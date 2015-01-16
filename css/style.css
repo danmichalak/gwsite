@@ -52,13 +52,24 @@ body {
 	overflow: hidden;
 }
 
+#navBar {
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navButton {
+	width: 120px;
+	height: 60px;
+}
+
 .navItem {
 	float: left;
 }
 
 .navLink {
 	display: block;
-	width: 100px;
-	height: 50px;
+	width: 120px;
+	height: 60px;
 	background-color: black;
 }
