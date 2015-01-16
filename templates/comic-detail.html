@@ -3,6 +3,10 @@
 	<br>
 	Select Chapter
 	<ul>
-		<li ng-repeat="chapter in chapters">{{chapter.book}} chapter {{chapter.chapter}}</li>
+		<li ng-repeat="chapter in chapters" class="listItem">
+			<div class="archiveButton">
+				<img src="/img/icons/comics/{{chapter.comic}}/{{chapter.comic}}Chapter{{chapter.chapter}}.png" class="archiveSymbol">
+			</div>
+		</li>
 	</ul>
 </div>

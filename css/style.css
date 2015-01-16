@@ -1,3 +1,4 @@
+/* ADS */
 .adLeaderboardContainer {
 	width: 728px;
 	height: 90px;
@@ -6,14 +7,8 @@
 	background-color: red;
 }
 
-.adSkyscraperWideContainer {
-	width: 160px;
-	height: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: red;
-}
 
+/* BODY AND MAJOR DIVS */
 body {
 	font-family: Helvetica;
 	background-color: #283F75;
@@ -52,6 +47,8 @@ body {
 	overflow: auto;
 }
 
+
+/* LISTS */
 .list {
 	list-style-type: none;
 	margin: 0px;
@@ -64,10 +61,14 @@ body {
 	font-weight: bold;	
 }
 
+
+/* HEADER */
 #gwBanner {
 	width: 800px;
 }
 
+
+/* NAVIGATION */
 #navBar {
 	width: 600px;
 	margin-left: auto;
@@ -90,6 +91,8 @@ body {
 	background-color: black;
 }
 
+
+/* PROFILES */
 .profileTitle {
 	font-weight: bold;
 }
@@ -102,6 +105,8 @@ body {
 	border-color: black;
 }
 
+
+/* NEWS */
 .newsAuthor {
 	font-size: 75%;
 	font-weight: bold;
@@ -122,6 +127,28 @@ body {
 }
 
 
+/* ARCHIVE */
+.archiveButton {
+	width: 500px;
+	height: 100px;
+	background-color: black;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+.archiveSymbol {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.archiveTitle {
+	float: left;
+}
+
+
+/* FOOTER */
 #footerContent {
 	margin-left: 10px;
 	font-size: 75%;
