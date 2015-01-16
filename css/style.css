@@ -47,6 +47,14 @@ body {
 	background-color: black;
 }
 
+#content {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 980px;
+	height: 1180px;
+	overflow: scroll;
+}
+
 .list {
 	list-style-type: none;
 	margin: 0px;
