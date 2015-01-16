@@ -119,6 +119,7 @@ body {
 
 #footerContent {
 	margin-left: 10px;
+	font-size: 75%;
 	color: white;
 }
 
@@ -128,5 +129,5 @@ body {
 }
 
 .footerCell {
-	padding: 15px;
+	padding: 10px;
 }
