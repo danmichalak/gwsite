@@ -107,10 +107,12 @@ gwSite.controller('NewsListCtrl', function ($scope, $http){
 
 // Retrieves the appropriate json comic chapter list based on state parameters
 gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams){
-	//console.log($stateParams);
 	$scope.comic = $stateParams.comic;
 
 	var urlStr = 'json/' + $scope.comic + 'Chapters.json';
 
-	console.log(urlStr);
+	$http.get(urlStr).success(functiond(data) {
+		$scope.chapters = data;
+		console.log(data);
+	});
 });
