@@ -51,7 +51,7 @@ body {
 	margin-left: 10px;
 	width: 980px;
 	height: 1180px;
-	overflow: scroll;
+	overflow: auto;
 }
 
 .list {
