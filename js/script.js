@@ -133,6 +133,6 @@ gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams, $http){
 	});
 });
 
-gwView.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
-
+gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
+	console.log($stateParams);
 });
