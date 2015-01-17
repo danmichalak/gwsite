@@ -48,7 +48,8 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 				templateUrl: "templates/header.html"
 			},
 			"container": {
-				templateUrl: "templates/comic-view.html"
+				templateUrl: "templates/comic-view.html",
+				controller: "ComicViewCtrl"
 			},
 			"bottom": {
 				templateUrl: "templates/bottom.html"
