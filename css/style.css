@@ -148,6 +148,11 @@ body {
 }
 
 
+/* COMIC VIEW */
+.comicBox {
+	width: 780px;
+}
+
 /* FOOTER */
 #footerContent {
 	margin-left: 10px;
