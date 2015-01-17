@@ -135,8 +135,6 @@ gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams, $http){
 });
 
 gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
-	$scope.comic = $stateParams.comic;
-	$scope.page = $stateParams.page;
-
-	console.log($scope);
+	console.log($stateParams.comic);
+	console.log($stateParams.comic);
 });
