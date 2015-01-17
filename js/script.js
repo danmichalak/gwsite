@@ -23,7 +23,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			}
 		}
 	})
-	.state('chapter', {
+	.state('comicarchive', {
 		url: '/comics/:comic',
 		views: {
 			"header": {
@@ -32,6 +32,23 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			"container": {
 				templateUrl: "templates/comic-detail.html",
 				controller: "ComicDetailCtrl"
+			},
+			"bottom": {
+				templateUrl: "templates/bottom.html"
+			},
+			"footer": {
+				templateUrl: "templates/footer.html"
+			}
+		}
+	})
+	.state('comicpage', {
+		url: '/comics/:comic/:page',
+		views: {
+			"header": {
+				templateUrl: "templates/header.html"
+			},
+			"container": {
+				templateUrl: "templates/comic-view.html"
 			},
 			"bottom": {
 				templateUrl: "templates/bottom.html"
@@ -114,4 +131,8 @@ gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams, $http){
 	$http.get(urlStr).success(function(data) {
 		$scope.chapters = data;
 	});
+});
+
+gwView.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
+
 });
