@@ -4,7 +4,10 @@
 	<div class="listTitle">Select Chapter</div>
 	<ul class="list">
 		<li ng-repeat="chapter in chapters" class="listItem">
-			<img ng-src="/img/icons/comics/{{chapter.comic}}/{{chapter.comic}}Chapter{{chapter.chapter}}.png" class="archiveSymbol">
+			<div class="archiveButton">
+				<img ng-src="/img/icons/comics/{{chapter.comic}}/{{chapter.comic}}Chapter{{chapter.chapter}}.png" class="archiveSymbol">
+				<img ng-src="/img/icons/comics/{{chapter.comic}}/{{chapter.comic}}Chapter{{chapter.chapter}}title.png" class="archiveTitle">
+			</div>
 		</li>
 	</ul>
 </div>
