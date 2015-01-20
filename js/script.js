@@ -118,6 +118,10 @@ gwSite.controller('NewsListCtrl', function ($scope, $http){
 
 	$http.get(urlStr).success(function(data) {
 
+		for (i = 0; i < data.length; i ++) {
+			console.log(i);
+		}
+
 		$scope.posts = data.reverse();
 
 	});
@@ -147,10 +151,9 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 
 		$scope.year = thisPage.year;
 		$scope.month = thisPage.month;
+		$scope.monthStr = monthConvert($scope.month);
 		$scope.day = thisPage.day;
 		$scope.authors = thisPage.authors;
-
-		console.log(monthConvert($scope.month));
 
 		// Unless the current page is the first, the previous page will be the current page-1
 		if (pageInt == 1) {
@@ -171,6 +174,7 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 	});
 });
 
+// Converts an integer to the appropriate month 
 function monthConvert(mInt) {
 
 	var mStr = [
@@ -188,5 +192,9 @@ function monthConvert(mInt) {
 		"December"
 	];
 
-	return mStr[mInt-1];
+	if ((mInt < 1) || (mInt > 12)) {
+		return "N/A";
+	} else {
+		return mStr[mInt-1];
+	}
 }
