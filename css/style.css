@@ -96,7 +96,6 @@ body {
 .pagerBox {
 	width: 790px;
 	height: 50px;
-	margin: 0px;
 	background-color: black;
 }
 
@@ -178,9 +177,9 @@ body {
 
 /* COMIC VIEW */
 .comicBox {
+	display: block;
 	width: 790px;
 	height: 930px;
-	margin: 0px;
 }
 
 /* FOOTER */
