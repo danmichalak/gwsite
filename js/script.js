@@ -149,7 +149,7 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 		console.log(data[pageInt]);
 		//console.log(data[pageInt].authors);
 
-		//var thisPage = data[pageInt];
+		var thisPage = data[pageInt];
 
 		//$scope.year = thisPage.year;
 		//$scope.month = thisPage.month;
