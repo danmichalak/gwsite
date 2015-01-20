@@ -94,7 +94,6 @@ body {
 
 /* PAGER */
 .pagerBox {
-	display: block;
 	width: 790px;
 	height: 50px;
 	background-color: black;
