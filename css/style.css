@@ -118,6 +118,14 @@ body {
 	margin-right: auto;
 }
 
+#pagerPrev1 {
+	margin-right: 195px;
+}
+
+#pagerPrev2 {
+	margin-left: 195px;
+}
+
 
 /* PROFILES */
 .profileTitle {
