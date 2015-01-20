@@ -91,6 +91,14 @@ body {
 	background-color: black;
 }
 
+
+/* PAGER */
+.pagerBox {
+	width: 790px;
+	height: 100px;
+	background: black;
+}
+
 .pagerLink {
 	display: block;
 	width: 100px;
@@ -98,11 +106,12 @@ body {
 	background-color: black;
 }
 
-.pagerBox {
-	width: 790px;
-	height: 100px;
-	background: black;
+#pager1 {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 
 /* PROFILES */
 .profileTitle {
