@@ -97,7 +97,7 @@ body {
 	display: block;
 	width: 790px;
 	height: 100px;
-	background: black;
+	background-color: black;
 }
 
 .pagerLink {
