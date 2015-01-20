@@ -188,6 +188,10 @@ body {
 	overflow: auto;
 }
 
+.comicNotesTitle {
+	font-weight: bold;
+}
+
 /* CONTACT */
 .contactBoxLeft {
 	display: block;
