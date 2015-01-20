@@ -91,6 +91,18 @@ body {
 	background-color: black;
 }
 
+.pagerLink {
+	display: block;
+	width: 100px;
+	height: 50px;
+	background-color: black;
+}
+
+.pagerBox {
+	width: 790px;
+	height: 100px;
+	background: black;
+}
 
 /* PROFILES */
 .profileTitle {
@@ -150,7 +162,7 @@ body {
 
 /* COMIC VIEW */
 .comicBox {
-	width: 780px;
+	width: 790px;
 }
 
 /* FOOTER */
