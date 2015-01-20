@@ -150,6 +150,8 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 		$scope.day = thisPage.day;
 		$scope.authors = thisPage.authors;
 
+		console.log(monthConvert($scope.month));
+
 		// Unless the current page is the first, the previous page will be the current page-1
 		if (pageInt == 1) {
 			$scope.prevPage = 1;
@@ -168,3 +170,23 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 		}
 	});
 });
+
+function monthConvert(mInt) {
+
+	var mStr = [
+		"January",
+		"February",
+		"March",
+		"April",
+		"May",
+		"June",
+		"July",
+		"August",
+		"September",
+		"October",
+		"November",
+		"December"
+	];
+
+	return mStr[mInt+1];
+}
