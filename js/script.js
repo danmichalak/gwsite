@@ -143,14 +143,22 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 	$http.get(urlStr).success(function(data) {
 		var pageInt = parseInt($scope.page);
 		
-		console.log(data);
-		console.log("Length: " + data.length);
-		console.log("This Page: " + pageInt);
-		console.log(data[pageInt-1].authors);
+		//console.log(data);
+		//console.log("Length: " + data.length);
+		//console.log("This Page: " + pageInt);
+		//console.log(data[pageInt-1].authors);
 
 		var thisPage = data[pageInt-1];
 
-		console.log(thisPage);
+		//console.log(thisPage);
+
+		$scope.year = thisPage.year;
+		$scope.month = thisPage.month;
+		$scope.day = thisPage.day;
+
+		console.log($scope.year);
+		console.log($scope.month);
+		console.log($scope.day);
 
 		/*
 		var pageInt = parseInt($scope.page);
