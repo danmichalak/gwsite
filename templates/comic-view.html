@@ -19,9 +19,10 @@
 </div>
 <div class="comicNotes">
 	<ul class="list">
-		Posted {{day}} {{month}} {{year}}<br>
+		<div class="newsDate">Posted {{day}} {{month}} {{year}}</div>
+		<br>
 		<li ng-repeat="author in authors">
-			{{author.name}}<br>
+			<div class="newsAuthor">{{author.name}}'s Notes:</div><br>
 			{{author.notes}}<br>
 			<br>
 		</li>
