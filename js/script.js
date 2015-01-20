@@ -165,7 +165,7 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 			$scope.nextPage = pageInt + 1;
 		}
 
-		var $scope.authors = data[pageInt].authors;
+		$scope.authors = data[pageInt].authors;
 		//console.log(authors);
 
 	});
