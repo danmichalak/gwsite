@@ -8,6 +8,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	.state('home', {
 		url: '/',
 		views: {
+			"top": {
+				template: ""
+			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
@@ -23,6 +26,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	.state('comicarchive', {
 		url: '/comics/:comic',
 		views: {
+			"top": {
+				template: ""
+			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
@@ -38,6 +44,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	.state('comicpage', {
 		url: '/comics/:comic/:page',
 		views: {
+			"top": {
+				template: ""
+			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
@@ -53,6 +62,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	.state('about', {
 		url: '/about',
 		views: {
+			"top": {
+				template: ""
+			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
@@ -67,6 +79,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	.state('cast', {
 		url: '/cast',
 		views: {
+			"top": {
+				template: ""
+			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
@@ -81,6 +96,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	.state('contact', {
 		url: '/contact',
 		views: {
+			"top": {
+				template: ""
+			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
