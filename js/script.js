@@ -142,60 +142,14 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 
 	$http.get(urlStr).success(function(data) {
 		var pageInt = parseInt($scope.page);
-		
-		//console.log(data);
-		//console.log(data.length);
-		//console.log("Length: " + data.length);
-		//console.log("This Page: " + pageInt);
-		//console.log(data[pageInt-1].authors);
 
 		var thisPage = data[pageInt-1];
-
-		//console.log(thisPage);
 
 		$scope.year = thisPage.year;
 		$scope.month = thisPage.month;
 		$scope.day = thisPage.day;
 		$scope.authors = thisPage.authors;
 
-		//console.log($scope.year);
-		//console.log($scope.month);
-		//console.log($scope.day);
-
-		// Unless the current page is the first, the previous page will be the current page-1
-		if (pageInt == 1) {
-			$scope.prevPage = 1;
-		} else {
-			$scope.prevPage = pageInt - 1;
-		}
-
-		// The last page should be equal to the number of objects in the data array
-		$scope.lastPage = data.length;
-
-		//console.log("Prev Page: " + $scope.prevPage);
-		//console.log("Last Page: " + $scope.lastPage);
-
-		// Unless the current page is the last, the next page will be the current page+1
-		if (pageInt == parseInt($scope.lastPage)) {
-			$scope.nextPage = $scope.lastPage;
-		} else {
-			$scope.nextPage = pageInt + 1;
-		}
-
-		/*
-		var pageInt = parseInt($scope.page);
-
-		console.log(data);
-		console.log(pageInt);
-		console.log(data[pageInt]);
-		//console.log(data[pageInt].authors);
-
-		var thisPage = data[pageInt];
-
-		//$scope.year = thisPage.year;
-		//$scope.month = thisPage.month;
-		//$scope.day = thisPage.day;
-
 		// Unless the current page is the first, the previous page will be the current page-1
 		if (pageInt == 1) {
 			$scope.prevPage = 1;
@@ -212,12 +166,5 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 		} else {
 			$scope.nextPage = pageInt + 1;
 		}
-
-		//console.log("Prev: " + $scope.prevPage);
-		//console.log("Next: " + $scope.prevPage);
-		//console.log("Last: " + $scope.prevPage);
-
-		$scope.authors = thisPage.authors;
-		*/
 	});
 });
