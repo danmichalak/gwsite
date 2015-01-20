@@ -183,7 +183,8 @@ body {
 
 .comicNotes {
 	width: 780px;
-	height: 170px;
+	height: 160px;
+	overflow: auto;
 }
 
 
