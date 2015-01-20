@@ -189,15 +189,10 @@ body {
 }
 
 /* CONTACT */
-.contactBoxLeft {
+.contactBox {
 	display: block;
 	width: 380px;
 	float: left;
-}
-
-.contactBoxRight {
-	display: block;
-	width: 380px;
 }
 
 /* FOOTER */
