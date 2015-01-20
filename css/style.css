@@ -188,6 +188,13 @@ body {
 	overflow: auto;
 }
 
+/* CONTACT */
+.classBox {
+	display: block;
+	width: 180px;
+	float: left;
+}
+
 
 /* FOOTER */
 #footerContent {
