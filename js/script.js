@@ -121,13 +121,8 @@ gwSite.controller('NewsListCtrl', function ($scope, $http){
 		$scope.posts = data.reverse();
 
 		for (i = 0; i < data.length; i ++) {
-			//console.log(monthConvert($scope.posts[i].month));
 			$scope.posts[i].monthStr = monthConvert($scope.posts[i].month);
-			console.log($scope);
 		}
-
-		console.log($scope);
-
 	});
 });
 
