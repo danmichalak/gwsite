@@ -188,5 +188,5 @@ function monthConvert(mInt) {
 		"December"
 	];
 
-	return mStr[mInt+1];
+	return mStr[mInt-1];
 }
