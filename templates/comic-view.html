@@ -19,6 +19,11 @@
 </div>
 <div class="comicNotes">
 	<ul class="list">
-		<li ng-repeat="author in authors">{{author.name}}</li>
+		Posted {{day}} {{month}} {{year}}<br>
+		<li ng-repeat="author in authors">
+			{{author.name}}<br>
+			{{author.notes}}<br>
+			<br>
+		</li>
 	</ul>
 </div>
