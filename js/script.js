@@ -167,7 +167,11 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 			$scope.prevPage = pageInt - 1;
 		}
 
-		console.log($scope.prevPage);
+		// The last page should be equal to the number of objects in the data array
+		$scope.lastPage = data.length;
+
+		console.log("Prev Page: " + $scope.prevPage);
+		console.log("Last Page: " + $scope.LastPage);
 
 		/*
 		var pageInt = parseInt($scope.page);
