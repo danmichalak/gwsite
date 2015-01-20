@@ -156,6 +156,7 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 		$scope.year = thisPage.year;
 		$scope.month = thisPage.month;
 		$scope.day = thisPage.day;
+		$scope.authors = thisPage.authors;
 
 		//console.log($scope.year);
 		//console.log($scope.month);
@@ -173,6 +174,13 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 
 		//console.log("Prev Page: " + $scope.prevPage);
 		//console.log("Last Page: " + $scope.lastPage);
+
+		// Unless the current page is the last, the next page will be the current page+1
+		if (pageInt == parseInt($scope.lastPage)) {
+			$scope.nextPage = $scope.lastPage;
+		} else {
+			$scope.nextPage = pageInt + 1;
+		}
 
 		/*
 		var pageInt = parseInt($scope.page);
