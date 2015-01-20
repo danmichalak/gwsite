@@ -141,7 +141,9 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 	var urlStr = 'json/' + $scope.comic + '.json';
 
 	$http.get(urlStr).success(function(data) {
-
+		var pageInt = parseInt($scope.page);
+		console.log(pageInt);
+		/*
 		var pageInt = parseInt($scope.page);
 
 		console.log(data);
@@ -177,6 +179,6 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 		//console.log("Last: " + $scope.prevPage);
 
 		$scope.authors = thisPage.authors;
-
+		*/
 	});
 });
