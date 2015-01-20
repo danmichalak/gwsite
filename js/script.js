@@ -146,7 +146,7 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 
 		//console.log(data);
 		//console.log(data[pageInt]);
-		console.log(data[pageInt].authors);
+		//console.log(data[pageInt].authors);
 
 		// Unless the current page is the first, the previous page will be the current page-1
 		if (pageInt == 1) {
@@ -164,5 +164,9 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 		} else {
 			$scope.nextPage = pageInt + 1;
 		}
+
+		var authorCount = data[pageInt].authors.length;
+		console.log(authorCount);
+		
 	});
 });
