@@ -156,9 +156,18 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 		$scope.month = thisPage.month;
 		$scope.day = thisPage.day;
 
-		console.log($scope.year);
-		console.log($scope.month);
-		console.log($scope.day);
+		//console.log($scope.year);
+		//console.log($scope.month);
+		//console.log($scope.day);
+
+		// Unless the current page is the first, the previous page will be the current page-1
+		if (pageInt == 1) {
+			$scope.prevPage = 1;
+		} else {
+			$scope.prevPage = pageInt - 1;
+		}
+
+		console.log($scope.prevPage);
 
 		/*
 		var pageInt = parseInt($scope.page);
