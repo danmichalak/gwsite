@@ -135,12 +135,30 @@ gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams, $http){
 });
 
 gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
-	//console.log($stateParams.comic);
-	//console.log($stateParams.page);
-
 	$scope.comic = $stateParams.comic;
 	$scope.page = $stateParams.page;
 
-	console.log($scope.comic);
-	console.log($scope.page);
+	var urlStr = 'json/' + $scope.comic + '.json';
+
+	$http.get(urlStr).success(function(data) {
+
+		var pageInt = parseInt($scope.page);
+
+		// Unless the current page is the first, the previous page will be the current page-1
+		if (pageInt == 1) {
+			$scope.prevPage = 1;
+		} else {
+			$scope.prevPage = pageInt - 1;
+		}
+
+		// The last page should be equal to the number of objects in the data array
+		$scope.lastPage = data.length;
+
+		// Unless the current page is the last, the next page will be the current page+1
+		if (pageInt == parseInt($scope.lastPage)) {
+			$scope.nextPage = $scope.lastPage;
+		} else {
+			$scope.nextPage = pageInt + 1;
+		}
+	});
 });
