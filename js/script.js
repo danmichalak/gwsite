@@ -142,6 +142,8 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 
 	$http.get(urlStr).success(function(data) {
 
+		console.log(data);
+
 		var pageInt = parseInt($scope.page);
 
 		// Unless the current page is the first, the previous page will be the current page-1
