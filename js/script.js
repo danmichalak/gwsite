@@ -143,7 +143,7 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 	$http.get(urlStr).success(function(data) {
 		var pageInt = parseInt($scope.page);
 		
-		//console.log(data);
+		console.log(data);
 		//console.log("Length: " + data.length);
 		//console.log("This Page: " + pageInt);
 		//console.log(data[pageInt-1].authors);
