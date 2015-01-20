@@ -181,6 +181,12 @@ body {
 	height: 930px;
 }
 
+.comicNotes {
+	width: 780px;
+	height: 170px;
+}
+
+
 /* FOOTER */
 #footerContent {
 	margin-left: 10px;
