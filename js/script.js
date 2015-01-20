@@ -148,6 +148,12 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 		//console.log(data[pageInt]);
 		//console.log(data[pageInt].authors);
 
+		var thisPage = data[pageInt];
+
+		$scope.year = thisPage.year;
+		$scope.month = thisPage.month;
+		$scope.day = thisPage.day;
+
 		// Unless the current page is the first, the previous page will be the current page-1
 		if (pageInt == 1) {
 			$scope.prevPage = 1;
@@ -165,8 +171,7 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 			$scope.nextPage = pageInt + 1;
 		}
 
-		$scope.authors = data[pageInt].authors;
-		console.log($scope.authors);
+		$scope.authors = thisPage.authors;
 
 	});
 });
