@@ -15,9 +15,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 				templateUrl: "templates/news-list.html",
 				controller: "NewsListCtrl"
 			},
-			"bottom": {
-				templateUrl: "templates/bottom.html"
-			},
 			"footer": {
 				templateUrl: "templates/footer.html"
 			}
@@ -32,9 +29,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			"container": {
 				templateUrl: "templates/comic-detail.html",
 				controller: "ComicDetailCtrl"
-			},
-			"bottom": {
-				templateUrl: "templates/bottom.html"
 			},
 			"footer": {
 				templateUrl: "templates/footer.html"
@@ -51,9 +45,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 				templateUrl: "templates/comic-view.html",
 				controller: "ComicViewCtrl"
 			},
-			"bottom": {
-				templateUrl: "templates/bottom.html"
-			},
 			"footer": {
 				templateUrl: "templates/footer.html"
 			}
@@ -67,9 +58,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			},
 			"container": {
 				templateUrl: "templates/about.html"
-			},
-			"bottom": {
-				templateUrl: "templates/bottom.html"
 			},
 			"footer": {
 				templateUrl: "templates/footer.html"
@@ -85,9 +73,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			"container": {
 				templateUrl: "templates/cast.html"
 			},
-			"bottom": {
-				templateUrl: "templates/bottom.html"
-			},
 			"footer": {
 				templateUrl: "templates/footer.html"
 			}
@@ -101,9 +86,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			},
 			"container": {
 				templateUrl: "templates/contact.html"
-			},
-			"bottom": {
-				templateUrl: "templates/bottom.html"
 			},
 			"footer": {
 				templateUrl: "templates/footer.html"
