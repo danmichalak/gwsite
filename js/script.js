@@ -144,15 +144,15 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 
 		var pageInt = parseInt($scope.page);
 
-		//console.log(data);
+		console.log(data);
 		//console.log(data[pageInt]);
 		//console.log(data[pageInt].authors);
 
 		var thisPage = data[pageInt];
 
-		$scope.year = thisPage.year;
-		$scope.month = thisPage.month;
-		$scope.day = thisPage.day;
+		//$scope.year = thisPage.year;
+		//$scope.month = thisPage.month;
+		//$scope.day = thisPage.day;
 
 		// Unless the current page is the first, the previous page will be the current page-1
 		if (pageInt == 1) {
@@ -171,9 +171,9 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 			$scope.nextPage = pageInt + 1;
 		}
 
-		$console.log("Prev: " + $scope.prevPage);
-		$console.log("Next: " + $scope.prevPage);
-		$console.log("Last: " + $scope.prevPage);
+		//console.log("Prev: " + $scope.prevPage);
+		//console.log("Next: " + $scope.prevPage);
+		//console.log("Last: " + $scope.prevPage);
 
 		$scope.authors = thisPage.authors;
 
