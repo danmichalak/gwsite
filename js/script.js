@@ -171,6 +171,10 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 			$scope.nextPage = pageInt + 1;
 		}
 
+		$console.log("Prev: " + $scope.prevPage);
+		$console.log("Next: " + $scope.prevPage);
+		$console.log("Last: " + $scope.prevPage);
+
 		$scope.authors = thisPage.authors;
 
 	});
