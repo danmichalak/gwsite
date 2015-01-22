@@ -176,10 +176,10 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 gwSite.directive('ads', function() {
 	return {
 		restrict: 'A',
-		templateUrl: 'templates/ads.html',
-		controller: function(){
-			(adsbygoogle = window.adsbygoogle || []).push({});
-		}
+		transclute: true,
+		replace: true,
+		template: '<div ng-transclude></div>',
+		link: function ($scope, element, attrs) {}
 	};
 });
 
