@@ -5,9 +5,10 @@
 		<title>Grace's Wings</title>
 		<meta name="description" content="Grace’s Wings is a Supernatural/Urban Fantasy webcomic about a for-hire exorcist and the demonic voice in her head.">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
 		<script src="//angular-ui.github.io/ui-router/release/angular-ui-router.min.js"></script>
-		<script src="js/script.js"></script>
+		<script src="js/script.js"></script>		
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -21,25 +22,13 @@
 	<body>
 		<div ui-view="top" autoscroll="true"></div>
 		<br>
-		<div class="adLeaderboardContainer">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- Top Banner -->
-			<ins class="adsbygoogle"
-			style="display:inline-block;width:728px;height:90px"
-			data-ad-client="ca-pub-3777765983404610"
-			data-ad-slot="1233174681"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
-		</div>
+		<div data-ads></div>
 		<br>
 		<header ui-view="header" id="header"></header>
 		<br>
 		<div ui-view="container"id="container"></div>
 		<br>
-		<div class="adLeaderboardContainer">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- Footer 1 -->
+		<!--<div class="adLeaderboardContainer">
 			<ins class="adsbygoogle"
 				style="display:inline-block;width:728px;height:90px"
 				data-ad-client="ca-pub-3777765983404610"
@@ -51,7 +40,6 @@
 		<br>
 		<div class="adLeaderboardContainer">
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-			<!-- Footer 2 -->
 			<ins class="adsbygoogle"
 				style="display:inline-block;width:728px;height:90px"
 				data-ad-client="ca-pub-3777765983404610"
@@ -59,7 +47,7 @@
 			<script>
 			(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-		</div>
+		</div>-->
 		<br>
 		<footer ui-view="footer" id="footer"></footer>
 	</body>
