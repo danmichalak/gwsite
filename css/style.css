@@ -66,6 +66,12 @@ body {
 	text-transform: uppercase;
 }
 
+.sectionBreak {
+	display: block;
+	height: 20px;
+	width: 100%;
+}
+
 
 /* HEADER */
 #gwBanner {
