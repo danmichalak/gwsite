@@ -11,6 +11,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			"top": {
 				template: ""
 			},
+			"aHeader": {
+				templateUrl: "templates/ads.html"
+			}
 			"header": {
 				templateUrl: "templates/header.html"
 			},
