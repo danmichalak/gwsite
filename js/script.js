@@ -31,6 +31,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		views: {
 			"top": {
 				template: ""
+			},			
+			"aHeader": {
+				templateUrl: "templates/ads.html"
 			},
 			"header": {
 				templateUrl: "templates/header.html"
@@ -49,6 +52,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		views: {
 			"top": {
 				template: ""
+			},			
+			"aHeader": {
+				templateUrl: "templates/ads.html"
 			},
 			"header": {
 				templateUrl: "templates/header.html"
@@ -67,6 +73,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		views: {
 			"top": {
 				template: ""
+			},			
+			"aHeader": {
+				templateUrl: "templates/ads.html"
 			},
 			"header": {
 				templateUrl: "templates/header.html"
@@ -84,6 +93,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		views: {
 			"top": {
 				template: ""
+			},			
+			"aHeader": {
+				templateUrl: "templates/ads.html"
 			},
 			"header": {
 				templateUrl: "templates/header.html"
@@ -101,6 +113,9 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		views: {
 			"top": {
 				template: ""
+			},			
+			"aHeader": {
+				templateUrl: "templates/ads.html"
 			},
 			"header": {
 				templateUrl: "templates/header.html"
