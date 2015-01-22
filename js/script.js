@@ -176,7 +176,7 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 gwSite.directive('ads', function() {
 	return {
 		restrict: 'A',
-		templateUrl: 'templates/ads.html',
+		templateUrl: 'templates/ad-header.html',
 		controller: function(){
 			(adsbygoogle = window.adsbygoogle || []).push({});
 		}
