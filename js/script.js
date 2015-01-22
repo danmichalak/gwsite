@@ -115,7 +115,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	});
 });
 
-var adSenseTpl = '<div class=".adLeaderboardContainer"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"	data-ad-client="ca-pub-3777765983404610" data-ad-slot="1233174681"></ins></div>';
+var adSenseTpl = '<div class="adLeaderboardContainer"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"	data-ad-client="ca-pub-3777765983404610" data-ad-slot="1233174681"></ins></div>';
 
 gwSite.directive('googleAdsense', function($window, $compile) {
 	return {
