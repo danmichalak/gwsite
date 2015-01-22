@@ -112,6 +112,25 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	});
 });
 
+var adSenseTpl = '<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"	data-ad-client="ca-pub-3777765983404610" data-ad-slot="1233174681"></ins>';
+
+gwSite.directive('googleAdsense', function($window, $compile) {
+	return {
+		restrict: 'A',
+		transclude: true,
+		template: adSenseTpl,
+		replace: false,
+		link: function postLink(scope, element, iAttrs) {
+			element.html("");
+			element.append(angular.element($compile(adSenseTpl)(scope)));
+			if (!$window.adsbygoogle) {
+				$window.adsbygoogle = [];
+			}
+			$window.adsbygoogle.push({});
+		}
+	};
+});
+
 // Retrieves the list of news stories and displays them in reverse order (latest to newest)
 gwSite.controller('NewsListCtrl', function ($scope, $http){
 	var urlStr = 'json/news.json';
