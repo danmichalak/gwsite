@@ -13,7 +13,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			},
 			"aHeader": {
 				templateUrl: "templates/ads.html"
-			}
+			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
