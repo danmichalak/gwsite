@@ -10,9 +10,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		views: {
 			"top": {
 				template: ""
-			},			
-			"aHeader": {
-				templateUrl: "templates/ads.html"
 			},
 			"header": {
 				templateUrl: "templates/header.html"
@@ -31,9 +28,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		views: {
 			"top": {
 				template: ""
-			},			
-			"aHeader": {
-				templateUrl: "templates/ads.html"
 			},
 			"header": {
 				templateUrl: "templates/header.html"
@@ -128,25 +122,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			}
 		}
 	});
-});
-
-var adSenseTpl = '<div class="adLeaderboardContainer"><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px"	data-ad-client="ca-pub-3777765983404610" data-ad-slot="1233174681"></ins></div>';
-
-gwSite.directive('googleAdsense', function($window, $compile) {
-	return {
-		restrict: 'A',
-		transclude: true,
-		template: adSenseTpl,
-		replace: false,
-		link: function postLink(scope, element, iAttrs) {
-			element.html("");
-			element.append(angular.element($compile(adSenseTpl)(scope)));
-			if (!$window.adsbygoogle) {
-				$window.adsbygoogle = [];
-			}
-			$window.adsbygoogle.push({});
-		}
-	};
 });
 
 // Retrieves the list of news stories and displays them in reverse order (latest to newest)
