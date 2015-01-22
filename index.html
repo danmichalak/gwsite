@@ -22,13 +22,21 @@
 	<body>
 		<div ui-view="top" autoscroll="true"></div>
 		<br>
-		<div ui-view="aHeader" autoscroll="true"></div>
+		<div class="adLeaderboardContainer">
+			<ins class="adsbygoogle"
+			style="display:inline-block;width:728px;height:90px"
+			data-ad-client="ca-pub-3777765983404610"
+			data-ad-slot="1233174681"></ins>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+		</div>
 		<br>
 		<header ui-view="header" id="header"></header>
 		<br>
 		<div ui-view="container"id="container"></div>
 		<br>
-		<!--<div class="adLeaderboardContainer">
+		<div class="adLeaderboardContainer">
 			<ins class="adsbygoogle"
 				style="display:inline-block;width:728px;height:90px"
 				data-ad-client="ca-pub-3777765983404610"
@@ -39,15 +47,14 @@
 		</div>
 		<br>
 		<div class="adLeaderboardContainer">
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 			<ins class="adsbygoogle"
 				style="display:inline-block;width:728px;height:90px"
 				data-ad-client="ca-pub-3777765983404610"
 				data-ad-slot="5831497886"></ins>
 			<script>
-			(adsbygoogle = window.adsbygoogle || []).push({});
+				(adsbygoogle = window.adsbygoogle || []).push({});
 			</script>
-		</div>-->
+		</div>
 		<br>
 		<footer ui-view="footer" id="footer"></footer>
 	</body>
