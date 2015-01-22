@@ -173,6 +173,16 @@ gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 	});
 });
 
+gwSite.directive('ads', function() {
+	return {
+		restrict: 'A',
+		templateUrl: 'templates/ads.html',
+		controller: function(){
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		}
+	};
+});
+
 // Converts an integer to the appropriate month 
 function monthConvert(mInt) {
 
