@@ -112,8 +112,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	});
 });
 
-gwSite.run(function() {
-	$interval(function(){
+gwSite.run($interval(function(){
          if($window.googletag && $window.googletag.pubads){
             $window.googletag.pubads().refresh();
           }
