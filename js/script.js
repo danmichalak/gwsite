@@ -112,7 +112,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	});
 });
 
-var adsenseHeaderTmpl = '<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-3777765983404610" data-ad-slot="1233174681"></ins>';
+var adsenseHeaderTpl = '<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-3777765983404610" data-ad-slot="1233174681"></ins>';
 
 gwSite.directive('adsenseHeader', function($window, $compile) {
 	return {
