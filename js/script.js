@@ -112,14 +112,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	});
 });
 
-/*gwSite.run(function($interval){
-	$interval(callAtInterval, 5000);
-});
-
-function callAtInterval() {
-	console.log("Interval occured");
-}*/
-
 // Retrieves the list of news stories and displays them in reverse order (latest to newest)
 gwSite.controller('NewsListCtrl', function ($scope, $http){
 	var urlStr = 'json/news.json';
