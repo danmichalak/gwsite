@@ -117,7 +117,7 @@ gwSite.run(
 		if($window.googletag && $window.googletag.pubads){
 			$window.googletag.pubads().refresh();
 		}
-	},60000);
+	},60000)
 );
 
 // Retrieves the list of news stories and displays them in reverse order (latest to newest)
