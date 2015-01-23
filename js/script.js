@@ -11,9 +11,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			"top": {
 				template: ""
 			},
-			"adsenseHeader": {
-				templateUrl: "templates/adsense-header.html"
-			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
@@ -31,9 +28,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		views: {
 			"top": {
 				template: ""
-			},
-			"adsenseHeader": {
-				templateUrl: "templates/adsense-header.html"
 			},
 			"header": {
 				templateUrl: "templates/header.html"
@@ -53,9 +47,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			"top": {
 				template: ""
 			},
-			"adsenseHeader": {
-				templateUrl: "templates/adsense-header.html"
-			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
@@ -74,9 +65,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			"top": {
 				template: ""
 			},
-			"adsenseHeader": {
-				templateUrl: "templates/adsense-header.html"
-			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
@@ -93,9 +81,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		views: {
 			"top": {
 				template: ""
-			},
-			"adsenseHeader": {
-				templateUrl: "templates/adsense-header.html"
 			},
 			"header": {
 				templateUrl: "templates/header.html"
@@ -114,9 +99,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			"top": {
 				template: ""
 			},
-			"adsenseHeader": {
-				templateUrl: "templates/adsense-header.html"
-			},
 			"header": {
 				templateUrl: "templates/header.html"
 			},
@@ -129,28 +111,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		}
 	});
 });
-
-var adsenseHeaderTpl = '<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-3777765983404610" data-ad-slot="1233174681"></ins>';
-
-gwSite.directive('adsenseHeader', function($window, $compile) {
-	return {
-		restrict: 'A',
-		transclude: true,
-		template: adsenseHeaderTpl,
-		replace: false,
-		link: function postLink(scope, element, iAttrs) {
-			element.html("");
-			element.append(angular.element($compile(adsenseHeaderTpl)(scope)));
-			
-			if (!$window.adsbygoogle) {
-				$window.adsbygoogle = [];
-			}
-
-			$window.adsbygoogle.push({});
-		}
-	};
-});
-
 
 // Retrieves the list of news stories and displays them in reverse order (latest to newest)
 gwSite.controller('NewsListCtrl', function ($scope, $http){
