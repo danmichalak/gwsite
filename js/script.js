@@ -118,7 +118,7 @@ gwSite.directive('adsenseHeader', function($window, $compile) {
 	return {
 		restrict: 'A',
 		transclude: true,
-		template: adsenseHeaderTmpl,
+		template: adsenseHeaderTpl,
 		replace: false,
 		link: function postLink(scope, element, iAttrs) {
 			element.html("");
