@@ -112,13 +112,13 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 	});
 });
 
-gwSite.run(
-	$interval(function(){
-		if($window.googletag && $window.googletag.pubads){
-			$window.googletag.pubads().refresh();
-		}
-	},60000)
-);
+gwSite.run(function($interval){
+	$interval(callAtInterval, 5000);
+});
+
+function callAtInterval() {
+	console.log("Interval occured");
+}
 
 // Retrieves the list of news stories and displays them in reverse order (latest to newest)
 gwSite.controller('NewsListCtrl', function ($scope, $http){
