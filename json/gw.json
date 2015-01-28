@@ -359,6 +359,15 @@
 		"year": 2015,
 		"month": 1,
 		"day": 28,
-		"authors": []
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Please oh unspeakable gods which reside over our computers. Make gimp better at formatting text one day. Thank you."
+			},
+			{
+				"name": "Dan",
+				"notes": "We have another bonus page this week. HOWEVER we're preparing to start posting two pages a week. Starting next week with Chapter 2, we'll be updating on Mondays and Wednesdays!"
+			}
+		]
 	}
 ]
