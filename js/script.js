@@ -2,11 +2,11 @@ var gwSite = angular.module('gwSite', ['ui.router']);
 
 gwSite.config(function($stateProvider, $urlRouterProvider){
 	
-	$urlRouterProvider.otherwise('/');
+	$urlRouterProvider.otherwise('/comics/gw/20');
 
 	$stateProvider
-	.state('home', {
-		url: '/',
+	.state('news', {
+		url: '/news',
 		views: {
 			"top": {
 				template: ""
