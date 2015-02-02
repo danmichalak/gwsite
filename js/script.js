@@ -2,7 +2,7 @@ var gwSite = angular.module('gwSite', ['ui.router']);
 
 gwSite.config(function($stateProvider, $urlRouterProvider){
 	
-	$urlRouterProvider.otherwise('/');
+	$urlRouterProvider.otherwise('/404');
 
 	$stateProvider
 	.state('home', {
@@ -127,6 +127,23 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 				templateUrl: "templates/footer.html"
 			}
 		}
+	})
+	.state('404', {
+		url: '/404',
+		views: {
+			"top": {
+				template: ""
+			},
+			"header": {
+				templateUrl: "templates/header.html"
+			},
+			"container": {
+				templateUrl: "templates/404.html"
+			},
+			"footer": {
+				templateUrl: "templates/footer.html"
+			}
+		}
 	});
 });
 
@@ -163,7 +180,7 @@ gwSite.controller('HomePageCtrl', function ($scope, $stateParams, $http){
 	$http.get(urlStr).success(function(data) {
 		// The last page should be equal to the number of objects in the data array
 		$scope.lastPage = data.length;
-		
+
 		$scope.page = $scope.lastPage
 
 		var pageInt = parseInt($scope.page);
