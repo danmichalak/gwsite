@@ -155,17 +155,22 @@ gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams, $http){
 	});
 });
 
-gwSite.controller('HomePageCtrl', function ($scope, $http){
+gwSite.controller('ComicViewCtrl', function ($scope, $stateParams, $http){
 	//$scope.comic = $stateParams.comic;
 	//$scope.page = $stateParams.page;
 
-	var urlStr = 'json/gw.json';
+	var urlStr = 'json/' + $scope.comic + '.json';
 
 	$http.get(urlStr).success(function(data) {
 		// The last page should be equal to the number of objects in the data array
 		$scope.lastPage = data.length;
 
-		var thisPage = scope.lastPage;
+		var pageInt = parseInt($scope.page);
+
+		$scope.comic = 'gw';
+		$scope.page = $scope.lastPage
+
+		var thisPage = data[pageInt-1];
 
 		$scope.year = thisPage.year;
 		$scope.month = thisPage.month;
