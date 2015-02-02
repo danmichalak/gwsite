@@ -163,11 +163,12 @@ gwSite.controller('HomePageCtrl', function ($scope, $stateParams, $http){
 	$http.get(urlStr).success(function(data) {
 		// The last page should be equal to the number of objects in the data array
 		$scope.lastPage = data.length;
+		
+		$scope.page = $scope.lastPage
 
 		var pageInt = parseInt($scope.page);
 
-		$scope.comic = 'gw';
-		$scope.page = $scope.lastPage
+		
 
 		var thisPage = data[pageInt-1];
 
