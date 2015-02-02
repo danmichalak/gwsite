@@ -42,7 +42,7 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 		}
 	})
 	.state('comicarchive', {
-		url: '/comics/gw',
+		url: '/comics/:comic',
 		views: {
 			"top": {
 				template: ""
