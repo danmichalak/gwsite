@@ -46,6 +46,11 @@ body {
 	overflow: auto;
 }
 
+.404Title {
+	font-size: 200%;
+	font-weight: bold;
+}
+
 
 /* LISTS */
 .list {
