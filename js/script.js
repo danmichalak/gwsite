@@ -156,8 +156,7 @@ gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams, $http){
 });
 
 gwSite.controller('HomePageCtrl', function ($scope, $stateParams, $http){
-	//$scope.comic = $stateParams.comic;
-	//$scope.page = $stateParams.page;
+	$scope.comic = 'gw';
 
 	var urlStr = 'json/' + $scope.comic + '.json';
 
