@@ -4,5 +4,11 @@
 		"chapter": 1,
 		"coverpage": 1,
 		"name": "Poltergeists"
+	},
+	{
+		"comic": "gw",
+		"chapter": 2,
+		"coverpage": 21,
+		"name": "Exorcism"
 	}
 ]

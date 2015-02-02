@@ -369,5 +369,24 @@
 				"notes": "We have another bonus page this week. HOWEVER we're preparing to start posting two pages a week. Starting next week with Chapter 2, we'll be updating on Mondays and Wednesdays!"
 			}
 		]
+	},
+	{
+		"book": "gw",
+		"page": 21,
+		"chapter": 2,
+		"chapterPage": 1,
+		"year": 2015,
+		"month": 2,
+		"day": 2,
+		"authors": [
+			{
+				"name": "Dan",
+				"notes": "God damnit, why did you draw little Nadia so cute. You KNOW I have to write terrible things to happen to her, right!?"
+			},
+			{
+				"name": "Faith",
+				"notes": "Eehehehehehehehehe."
+			}
+		]
 	}
 ]
