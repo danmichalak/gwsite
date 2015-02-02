@@ -2,9 +2,27 @@ var gwSite = angular.module('gwSite', ['ui.router']);
 
 gwSite.config(function($stateProvider, $urlRouterProvider){
 	
-	$urlRouterProvider.otherwise('/comics/gw/20');
+	$urlRouterProvider.otherwise('/');
 
 	$stateProvider
+	.state('home', {
+		url: '/',
+		views: {
+			"top": {
+				template: ""
+			},
+			"header": {
+				templateUrl: "templates/header.html"
+			},
+			"container": {
+				templateUrl: "templates/comic-view.html",
+				controller: "HomePageCtrl"
+			},
+			"footer": {
+				templateUrl: "templates/footer.html"
+			}
+		}
+	})
 	.state('news', {
 		url: '/news',
 		views: {
@@ -134,6 +152,43 @@ gwSite.controller('ComicDetailCtrl', function ($scope, $stateParams, $http){
 
 	$http.get(urlStr).success(function(data) {
 		$scope.chapters = data;
+	});
+});
+
+gwSite.controller('HomePageCtrl', function ($scope, $http){
+	//$scope.comic = $stateParams.comic;
+	//$scope.page = $stateParams.page;
+
+	var urlStr = 'json/gw.json';
+
+	$http.get(urlStr).success(function(data) {
+		// The last page should be equal to the number of objects in the data array
+		$scope.lastPage = data.length;
+
+		var thisPage = scope.lastPage;
+
+		$scope.year = thisPage.year;
+		$scope.month = thisPage.month;
+		$scope.monthStr = monthConvert($scope.month);
+		$scope.day = thisPage.day;
+		$scope.authors = thisPage.authors;
+
+		// Unless the current page is the first, the previous page will be the current page-1
+		if (pageInt == 1) {
+			$scope.prevPage = 1;
+		} else {
+			$scope.prevPage = pageInt - 1;
+		}
+
+		// The last page should be equal to the number of objects in the data array
+		//$scope.lastPage = data.length;
+
+		// Unless the current page is the last, the next page will be the current page+1
+		if (pageInt == parseInt($scope.lastPage)) {
+			$scope.nextPage = $scope.lastPage;
+		} else {
+			$scope.nextPage = pageInt + 1;
+		}
 	});
 });
 
