@@ -2,7 +2,8 @@ var gwSite = angular.module('gwSite', ['ui.router']);
 
 gwSite.config(function($stateProvider, $urlRouterProvider){
 	
-	$urlRouterProvider.otherwise('/404');
+	//$urlRouterProvider.otherwise('/404');
+	$urlRouterProvider.otherwise('/');
 
 	$stateProvider
 	.state('home', {
@@ -23,6 +24,23 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			}
 		}
 	})
+	/*.state('404', {
+		url: '/404',
+		views: {
+			"top": {
+				template: ""
+			},
+			"header": {
+				templateUrl: "templates/header.html"
+			},
+			"container": {
+				templateUrl: "templates/404.html"
+			},
+			"footer": {
+				templateUrl: "templates/footer.html"
+			}
+		}
+	})*/
 	.state('news', {
 		url: '/news',
 		views: {
@@ -122,23 +140,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			},
 			"container": {
 				templateUrl: "templates/contact.html"
-			},
-			"footer": {
-				templateUrl: "templates/footer.html"
-			}
-		}
-	})
-	.state('404', {
-		url: '/404',
-		views: {
-			"top": {
-				template: ""
-			},
-			"header": {
-				templateUrl: "templates/header.html"
-			},
-			"container": {
-				templateUrl: "templates/404.html"
 			},
 			"footer": {
 				templateUrl: "templates/footer.html"
