@@ -397,6 +397,15 @@
 		"year": 2015,
 		"month": 2,
 		"day": 4,
-		"authors": []
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "I really wanted to make Nadia's bed spread Pokémon or Lion King themed like I had as a kid but also I'm afraid of cease and desist letters."
+			},
+			{
+				"name": "Dan",
+				"notes": "Yeeesh did you have to add the blood?"
+			}
+		]
 	}
 ]
