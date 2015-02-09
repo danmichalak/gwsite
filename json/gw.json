@@ -407,5 +407,24 @@
 				"notes": "Yeeesh did you have to add the blood?"
 			}
 		]
+	},
+	{
+		"book": "gw",
+		"page": 23,
+		"chapter": 2,
+		"chapterPage": 3,
+		"year": 2015,
+		"month": 2,
+		"day": 9,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "I have about the same quality of posture as Nikail does."
+			},
+			{
+				"name": "Dan",
+				"notes": "That mustache tho."
+			}
+		]
 	}
 ]
