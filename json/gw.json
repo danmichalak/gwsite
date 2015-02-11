@@ -426,5 +426,24 @@
 				"notes": "That mustache tho."
 			}
 		]
+	},
+	{
+		"book": "gw",
+		"page": 24,
+		"chapter": 2,
+		"chapterPage": 4,
+		"year": 2015,
+		"month": 2,
+		"day": 11,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "NOBODY EXPECTS THE SPANISH INQUISITION!"
+			},
+			{
+				"name": "Dan",
+				"notes": "Well they seem like a very nice Inquisition at least."
+			}
+		]
 	}
 ]
