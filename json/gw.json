@@ -445,5 +445,24 @@
 				"notes": "Well they seem like a very nice Inquisition at least."
 			}
 		]
+	},
+	{
+		"book": "gw",
+		"page": 25,
+		"chapter": 2,
+		"chapterPage": 4,
+		"year": 2015,
+		"month": 2,
+		"day": 16,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "I identify strongly with Nikails reaction to ice cream."
+			},
+			{
+				"name": "Dan",
+				"notes": "As do we all."
+			}
+		]
 	}
 ]
