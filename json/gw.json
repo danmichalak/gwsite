@@ -464,5 +464,24 @@
 				"notes": "As do we all."
 			}
 		]
+	},
+	{
+		"book": "gw",
+		"page": 26,
+		"chapter": 2,
+		"chapterPage": 4,
+		"year": 2015,
+		"month": 2,
+		"day": 18,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Maybe we should have used the Twinkie analogy from Ghostbusters for this one."
+			},
+			{
+				"name": "Dan",
+				"notes": "One day I won't have to write an exposition scene into each chapter..."
+			}
+		]
 	}
 ]
