@@ -24,24 +24,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			}
 		}
 	})
-	.state('news', {
-		url: '/news',
-		views: {
-			"top": {
-				template: ""
-			},
-			"header": {
-				templateUrl: "templates/header.html"
-			},
-			"container": {
-				templateUrl: "templates/news-list.html",
-				controller: "NewsListCtrl"
-			},
-			"footer": {
-				templateUrl: "templates/footer.html"
-			}
-		}
-	})
 	.state('comicarchive', {
 		url: '/comics/:comic',
 		views: {
@@ -76,20 +58,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			"footer": {
 				templateUrl: "templates/footer.html"
 			}
-		}
-	});
-});
-
-// Retrieves the list of news stories and displays them in reverse order (latest to newest)
-gwSite.controller('NewsListCtrl', function ($scope, $http){
-	var urlStr = 'json/news.json';
-
-	$http.get(urlStr).success(function(data) {
-
-		$scope.posts = data.reverse();
-
-		for (i = 0; i < data.length; i ++) {
-			$scope.posts[i].monthStr = monthConvert($scope.posts[i].month);
 		}
 	});
 });
