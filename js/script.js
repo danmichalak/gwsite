@@ -24,23 +24,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			}
 		}
 	})
-	/*.state('404', {
-		url: '/404',
-		views: {
-			"top": {
-				template: ""
-			},
-			"header": {
-				templateUrl: "templates/header.html"
-			},
-			"container": {
-				templateUrl: "templates/404.html"
-			},
-			"footer": {
-				templateUrl: "templates/footer.html"
-			}
-		}
-	})*/
 	.state('news', {
 		url: '/news',
 		views: {
@@ -89,57 +72,6 @@ gwSite.config(function($stateProvider, $urlRouterProvider){
 			"container": {
 				templateUrl: "templates/comic-view.html",
 				controller: "ComicViewCtrl"
-			},
-			"footer": {
-				templateUrl: "templates/footer.html"
-			}
-		}
-	})
-	.state('about', {
-		url: '/about',
-		views: {
-			"top": {
-				template: ""
-			},
-			"header": {
-				templateUrl: "templates/header.html"
-			},
-			"container": {
-				templateUrl: "templates/about.html"
-			},
-			"footer": {
-				templateUrl: "templates/footer.html"
-			}
-		}
-	})
-	.state('cast', {
-		url: '/cast',
-		views: {
-			"top": {
-				template: ""
-			},
-			"header": {
-				templateUrl: "templates/header.html"
-			},
-			"container": {
-				templateUrl: "templates/cast.html"
-			},
-			"footer": {
-				templateUrl: "templates/footer.html"
-			}
-		}
-	})
-	.state('contact', {
-		url: '/contact',
-		views: {
-			"top": {
-				template: ""
-			},
-			"header": {
-				templateUrl: "templates/header.html"
-			},
-			"container": {
-				templateUrl: "templates/contact.html"
 			},
 			"footer": {
 				templateUrl: "templates/footer.html"
