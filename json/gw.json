@@ -450,7 +450,7 @@
 		"book": "gw",
 		"page": 25,
 		"chapter": 2,
-		"chapterPage": 4,
+		"chapterPage": 5,
 		"year": 2015,
 		"month": 2,
 		"day": 16,
@@ -469,7 +469,7 @@
 		"book": "gw",
 		"page": 26,
 		"chapter": 2,
-		"chapterPage": 4,
+		"chapterPage": 6,
 		"year": 2015,
 		"month": 2,
 		"day": 18,
@@ -486,12 +486,31 @@
 	},
 	{
 		"book": "gw",
-		"page": 26,
+		"page": 27,
 		"chapter": 2,
-		"chapterPage": 4,
+		"chapterPage": 7,
 		"year": 2015,
 		"month": 2,
 		"day": 23,
 		"authors": []
+	},
+	{
+		"book": "gw",
+		"page": 28,
+		"chapter": 2,
+		"chapterPage": 8,
+		"year": 2015,
+		"month": 2,
+		"day": 25,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Best ghost is ghost dog."
+			},
+			{
+				"name": "Dan",
+				"notes": "Jesus Christ what the fuck is that in the third panel."
+			}
+		]
 	}
 ]
