@@ -512,5 +512,15 @@
 				"notes": "Jesus Christ what the fuck is that in the third panel."
 			}
 		]
+	},
+	{
+		"book": "gw",
+		"page": 29,
+		"chapter": 2,
+		"chapterPage": 9,
+		"year": 2015,
+		"month": 3,
+		"day": 2,
+		"authors": []
 	}
 ]
