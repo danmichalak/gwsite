@@ -522,5 +522,25 @@
 		"month": 3,
 		"day": 2,
 		"authors": []
+	},
+	
+	{
+		"book": "gw",
+		"page": 30,
+		"chapter": 2,
+		"chapterPage": 10,
+		"year": 2015,
+		"month": 3,
+		"day": 4,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Fun Fact: Because Josephine is the leader she has  way cooler sword than anyone else."
+			},
+			{
+				"name": "Dan",
+				"notes": "We updated a bit later today than usual because I had something to take care of, but last it checked it's still Wednesday"
+			}
+		]
 	}
 ]
