@@ -550,15 +550,6 @@
 		"year": 2015,
 		"month": 3,
 		"day": 9,
-		"authors": [
-			{
-				"name": "Faith",
-				"notes": ""
-			},
-			{
-				"name": "Dan",
-				"notes": ""
-			}
-		]
+		"authors": []
 	}
 ]
