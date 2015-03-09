@@ -522,8 +522,7 @@
 		"month": 3,
 		"day": 2,
 		"authors": []
-	},
-	
+	},	
 	{
 		"book": "gw",
 		"page": 30,
@@ -539,7 +538,26 @@
 			},
 			{
 				"name": "Dan",
-				"notes": "We updated a bit later today than usual because I had something to take care of, but last it checked it's still Wednesday"
+				"notes": "We updated a bit later today than usual because I had something to take care of, but last it checked it's still Wednesday."
+			}
+		]
+	},	
+	{
+		"book": "gw",
+		"page": 31,
+		"chapter": 2,
+		"chapterPage": 11,
+		"year": 2015,
+		"month": 3,
+		"day": 9,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": ""
+			},
+			{
+				"name": "Dan",
+				"notes": ""
 			}
 		]
 	}
