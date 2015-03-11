@@ -551,5 +551,24 @@
 		"month": 3,
 		"day": 9,
 		"authors": []
+	},	
+	{
+		"book": "gw",
+		"page": 32,
+		"chapter": 2,
+		"chapterPage": 12,
+		"year": 2015,
+		"month": 3,
+		"day": 11,
+		"authors": [
+			{
+				"name": "Dan",
+				"notes": "So I'm pretty loopy from sleep deprivation right now, but the one templar with a beard kind of looks like a badass future version of WowCrendor..."
+			},
+			{
+				"name": "Faith",
+				"notes": "Oh my god he totally does."
+			}
+		]
 	}
 ]
