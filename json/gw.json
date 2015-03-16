@@ -570,5 +570,24 @@
 				"notes": "Oh my god he totally does."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 33,
+		"chapter": 2,
+		"chapterPage": 13,
+		"year": 2015,
+		"month": 3,
+		"day": 16,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "And here we see Josephine holding it together much better than I ever could."
+			},
+			{
+				"name": "Dan",
+				"notes": "Jim continues to look as derpy as he does terrifying."
+			}
+		]
 	}
 ]
