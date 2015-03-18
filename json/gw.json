@@ -589,5 +589,24 @@
 				"notes": "Jim continues to look as derpy as he does terrifying."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 34,
+		"chapter": 2,
+		"chapterPage": 14,
+		"year": 2015,
+		"month": 3,
+		"day": 18,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "RIP in peace Crendor Templar."
+			},
+			{
+				"name": "Dan",
+				"notes": "Don't worry. I'm sure Josephine, Terrified Blonde Templar, Overly-Attractive Brunette Templar, and Templar That Was Kind Of On Screen That One Time got this under control."
+			}
+		]
 	}
 ]
