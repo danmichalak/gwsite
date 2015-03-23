@@ -608,5 +608,24 @@
 				"notes": "Don't worry. I'm sure Josephine, Terrified Blonde Templar, Overly-Attractive Brunette Templar, and Templar That Was Kind Of On Screen That One Time got this under control."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 35,
+		"chapter": 2,
+		"chapterPage": 15,
+		"year": 2015,
+		"month": 3,
+		"day": 23,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "RIP in peace other redshirts."
+			},
+			{
+				"name": "Dan",
+				"notes": "Eh I'm sure they're fine."
+			}
+		]
 	}
 ]
