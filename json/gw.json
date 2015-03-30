@@ -637,5 +637,15 @@
 		"month": 3,
 		"day": 25,
 		"authors": []
+	},	
+	{
+		"book": "gw",
+		"page": 37,
+		"chapter": 2,
+		"chapterPage": 15,
+		"year": 2015,
+		"month": 3,
+		"day": 30,
+		"authors": []
 	}
 ]
