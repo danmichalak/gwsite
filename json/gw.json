@@ -676,5 +676,24 @@
 		"month": 4,
 		"day": 6,
 		"authors": []
+	},	
+	{
+		"book": "gw",
+		"page": 40,
+		"chapter": 2,
+		"chapterPage": 19,
+		"year": 2015,
+		"month": 4,
+		"day": 8,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Anything that makes Mustache Dad sad makes me sad :("
+			},
+			{
+				"name": "Dan",
+				"notes": "For future reference, Nadia's mom is Hispanic (hence the Spanish) and her dad is Russian (hence the vaguely slavic surname)"
+			}
+		]
 	}
 ]
