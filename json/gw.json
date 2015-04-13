@@ -695,5 +695,24 @@
 				"notes": "For future reference, Nadia's mom is Hispanic (hence the Spanish) and her dad is Russian (hence the vaguely slavic surname)"
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 41,
+		"chapter": 2,
+		"chapterPage": 20,
+		"year": 2015,
+		"month": 4,
+		"day": 13,
+		"authors": [
+			{
+				"name": "Dan",
+				"notes": "Don't worry about not understanding what the fuck is going on in this page. You aren't meant to understand it for a few chapters..."
+			},
+			{
+				"name": "Faith",
+				"notes": "This page is brought to you by: Hallucinogens"
+			}
+		]
 	}
 ]
