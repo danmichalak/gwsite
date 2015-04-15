@@ -714,5 +714,24 @@
 				"notes": "This page is brought to you by: Hallucinogens"
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 42,
+		"chapter": 2,
+		"chapterPage": 20,
+		"year": 2015,
+		"month": 4,
+		"day": 15,
+		"authors": [
+			{
+				"name": "Dan",
+				"notes": "I promise this is our last incomprehensible page... for now..."
+			},
+			{
+				"name": "Faith",
+				"notes": "We made an edit to the last page too, see if you can find it"
+			}
+		]
 	}
 ]
