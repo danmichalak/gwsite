@@ -733,5 +733,24 @@
 				"notes": "We made an edit to the last page too, see if you can find it"
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 43,
+		"chapter": 2,
+		"chapterPage": 20,
+		"year": 2015,
+		"month": 4,
+		"day": 20,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Hey those last couple pages were weird but here's a turtle."
+			},
+			{
+				"name": "Dan",
+				"notes": "We made an edit to the previous page. Sorry for doing so twice in a row, but the colors are important, and I had kept going back and forth on what colors Faith should use in certain places. This should hopefully be the last of these mildly retcony edits."
+			}
+		]
 	}
 ]
