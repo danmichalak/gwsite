@@ -719,7 +719,7 @@
 		"book": "gw",
 		"page": 42,
 		"chapter": 2,
-		"chapterPage": 20,
+		"chapterPage": 21,
 		"year": 2015,
 		"month": 4,
 		"day": 15,
@@ -738,7 +738,7 @@
 		"book": "gw",
 		"page": 43,
 		"chapter": 2,
-		"chapterPage": 20,
+		"chapterPage": 22,
 		"year": 2015,
 		"month": 4,
 		"day": 20,
@@ -752,5 +752,15 @@
 				"notes": "We made an edit to the previous page. Sorry for doing so twice in a row, but the colors are important, and I had kept going back and forth on what colors Faith should use in certain places. This should hopefully be the last of these mildly retcony edits."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 44,
+		"chapter": 2,
+		"chapterPage": 23,
+		"year": 2015,
+		"month": 4,
+		"day": 22,
+		"authors": []
 	}
 ]
