@@ -762,5 +762,24 @@
 		"month": 4,
 		"day": 22,
 		"authors": []
+	},	
+	{
+		"book": "gw",
+		"page": 45,
+		"chapter": 2,
+		"chapterPage": 24,
+		"year": 2015,
+		"month": 4,
+		"day": 27,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "I tried to make Nadia's home look as tacky as possible."
+			},
+			{
+				"name": "Dan",
+				"notes": "As someone with a similarly malnutritioned build, I have to wonder how Nadia hasn't put pants on yet. Her legs should have frozen off by now."
+			}
+		]
 	}
 ]
