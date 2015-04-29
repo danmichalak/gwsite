@@ -781,5 +781,24 @@
 				"notes": "As someone with a similarly malnutritioned build, I have to wonder how Nadia hasn't put pants on yet. Her legs should have frozen off by now."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 46,
+		"chapter": 2,
+		"chapterPage": 25,
+		"year": 2015,
+		"month": 4,
+		"day": 29,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "As you can see, Nadia has terrible taste in decor, but great taste in calendars"
+			},
+			{
+				"name": "Dan",
+				"notes": "Not gonna lie, little jealous of that calendar."
+			}
+		]
 	}
 ]
