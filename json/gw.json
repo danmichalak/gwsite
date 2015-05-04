@@ -800,5 +800,20 @@
 				"notes": "Not gonna lie, little jealous of that calendar."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 47,
+		"chapter": 2,
+		"chapterPage": 25,
+		"year": 2015,
+		"month": 5,
+		"day": 4,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Smoooooth, Nadia."
+			}
+		]
 	}
 ]
