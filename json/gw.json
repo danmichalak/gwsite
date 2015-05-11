@@ -825,5 +825,20 @@
 		"month": 5,
 		"day": 6,
 		"authors": []
+	},	
+	{
+		"book": "gw",
+		"page": 49,
+		"chapter": 3,
+		"chapterPage": 1,
+		"year": 2015,
+		"month": 5,
+		"day": 10,
+		"authors": [
+			{
+				"name": "Dan",
+				"notes": "Now that chapter 2 is over, I added some info to the cast page. Also, I believe this is the day our promotion deal with TvTropes starts, so hopefully we make more than two cents today!"
+			}
+		]
 	}
 ]
