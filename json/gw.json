@@ -833,7 +833,7 @@
 		"chapterPage": 1,
 		"year": 2015,
 		"month": 5,
-		"day": 10,
+		"day": 11,
 		"authors": [
 			{
 				"name": "Faith",
@@ -842,6 +842,21 @@
 			{
 				"name": "Dan",
 				"notes": "Now that chapter 2 is over, I added some info to the cast page. Also, I believe this is the day our promotion deal with TvTropes starts, so hopefully we make more than two cents today!"
+			}
+		]
+	},	
+	{
+		"book": "gw",
+		"page": 50,
+		"chapter": 3,
+		"chapterPage": 2,
+		"year": 2015,
+		"month": 5,
+		"day": 13,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Nadia's plesiosaur shirt is the happiest thing about this page."
 			}
 		]
 	}
