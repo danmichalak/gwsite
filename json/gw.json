@@ -859,5 +859,23 @@
 				"notes": "Nadia's plesiosaur shirt is the happiest thing about this page."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 51,
+		"chapter": 3,
+		"chapterPage": 3,
+		"year": 2015,
+		"month": 5,
+		"day": 18,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "I feel like Josephine's that friend who will NEVER baby sit your kids because she thinks she'll break them on accident."
+			},
+			{
+				"name": "Dan",
+				"notes": "I'd once again like to thank TvTropes for that weeklong promotion on the site. We DEFINITELY didn't make back what we spent on the kickstarter, but not like we expected to. Just great that we finally got our name out there!"
+			}
+		]
 	}
-]
