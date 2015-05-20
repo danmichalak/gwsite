@@ -878,5 +878,15 @@
 				"notes": "I'd once again like to thank TvTropes for that weeklong promotion on the site. We DEFINITELY didn't make back what we spent on the kickstarter, but not like we expected to. Just great that we finally got our name out there!"
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 52,
+		"chapter": 3,
+		"chapterPage": 4,
+		"year": 2015,
+		"month": 5,
+		"day": 20,
+		"authors": []
 	}
 ]
