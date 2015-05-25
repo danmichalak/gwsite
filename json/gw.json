@@ -888,5 +888,24 @@
 		"month": 5,
 		"day": 20,
 		"authors": []
+	},	
+	{
+		"book": "gw",
+		"page": 53,
+		"chapter": 3,
+		"chapterPage": 5,
+		"year": 2015,
+		"month": 5,
+		"day": 25,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Nadia's t-shirt is inspired by every piece of clothing I owned in the 90's."
+			},
+			{
+				"name": "Dan",
+				"notes": "I'd have notes for this page, but I'm currently starting an NG+ in Persona 4 while watching the Persona 4 anime DON'T JUDGE ME"
+			}
+		]
 	}
 ]
