@@ -907,5 +907,20 @@
 				"notes": "I'd have notes for this page, but I'm currently starting an NG+ in Persona 4 while watching the Persona 4 anime DON'T JUDGE ME"
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 54,
+		"chapter": 3,
+		"chapterPage": 6,
+		"year": 2015,
+		"month": 5,
+		"day": 27,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Of course the gesture Nadia is most touched by is someone buying her food.."
+			}
+		]
 	}
 ]
