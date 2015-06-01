@@ -919,8 +919,18 @@
 		"authors": [
 			{
 				"name": "Faith",
-				"notes": "Of course the gesture Nadia is most touched by is someone buying her food.."
+				"notes": "Of course the gesture Nadia is most touched by is someone buying her food."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 55,
+		"chapter": 3,
+		"chapterPage": 7,
+		"year": 2015,
+		"month": 5,
+		"day": 27,
+		"authors": []
 	}
 ]
