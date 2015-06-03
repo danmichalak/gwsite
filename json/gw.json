@@ -932,5 +932,24 @@
 		"month": 5,
 		"day": 27,
 		"authors": []
+	},	
+	{
+		"book": "gw",
+		"page": 56,
+		"chapter": 3,
+		"chapterPage": 8,
+		"year": 2015,
+		"month": 6,
+		"day": 2,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Kids these days with their music, and their clothes, and their vampirism."
+			},
+			{
+				"name": "Dan",
+				"notes": "Get off my porch."
+			}
+		]
 	}
 ]
