@@ -961,5 +961,20 @@
 		"month": 6,
 		"day": 8,
 		"authors": []
+	},	
+	{
+		"book": "gw",
+		"page": 58,
+		"chapter": 3,
+		"chapterPage": 10,
+		"year": 2015,
+		"month": 6,
+		"day": 10,
+		"authors": [
+			{
+				"name": "Dan",
+				"notes": "Sorry the page is a bit later than usual. Me and Faith became suddenly employed within days of each other, and we're still settling into our new schedules."
+			}
+		]
 	}
 ]
