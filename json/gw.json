@@ -976,5 +976,20 @@
 				"notes": "Sorry the page is a bit later than usual. Me and Faith became suddenly employed within days of each other, and we're still settling into our new schedules."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 59,
+		"chapter": 3,
+		"chapterPage": 11,
+		"year": 2015,
+		"month": 6,
+		"day": 15,
+		"authors": [
+			{
+				"name": "Dan",
+				"notes": "It's some kind of law  of fiction that vampires have to own a super gothy nightclub with a super cheesy name."
+			}
+		]
 	}
 ]
