@@ -991,5 +991,15 @@
 				"notes": "It's some kind of law  of fiction that vampires have to own a super gothy nightclub with a super cheesy name."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 60,
+		"chapter": 3,
+		"chapterPage": 12,
+		"year": 2015,
+		"month": 6,
+		"day": 17,
+		"authors": []
 	}
 ]
