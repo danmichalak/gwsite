@@ -1011,5 +1011,24 @@
 		"month": 6,
 		"day": 22,
 		"authors": []
-	}
+	},	
+	{
+		"book": "gw",
+		"page": 62,
+		"chapter": 3,
+		"chapterPage": 14,
+		"year": 2015,
+		"month": 6,
+		"day": 24,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Some poor waitress has to put that creepy plate into the dishwasher."
+			},
+			{
+				"name": "Dan",
+				"notes": "The lateness of today's page is on me today. Forgot to post it to the site before going to work. OOPS."
+			}
+		]
+	},
 ]
