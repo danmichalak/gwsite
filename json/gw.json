@@ -1030,5 +1030,15 @@
 				"notes": "The lateness of today's page is on me today. Forgot to post it to the site before going to work. OOPS."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 63,
+		"chapter": 3,
+		"chapterPage": 15,
+		"year": 2015,
+		"month": 6,
+		"day": 29,
+		"authors": []
 	}
 ]
