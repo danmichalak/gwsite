@@ -1040,5 +1040,24 @@
 		"month": 6,
 		"day": 29,
 		"authors": []
+	},	
+	{
+		"book": "gw",
+		"page": 64,
+		"chapter": 3,
+		"chapterPage": 16,
+		"year": 2015,
+		"month": 7,
+		"day": 1,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Apparently listening to Bollywood music for three hours straight makes you very productive???."
+			},
+			{
+				"name": "Dan",
+				"notes": "Faith wanted to put some early cameos on this page, but I had a reason for every character she wanted to include not to be here. I think about this shit way too much :T"
+			}
+		]
 	}
 ]
