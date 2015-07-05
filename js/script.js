@@ -82,7 +82,7 @@ gwSite.controller('HomePageCtrl', function ($scope, $stateParams, $http){
 		// The last page should be equal to the number of objects in the data array
 		$scope.lastPage = data.length;
 
-		$scope.page = $scope.lastPage
+		$scope.page = $scope.lastPage;
 
 		var pageInt = parseInt($scope.page);
 

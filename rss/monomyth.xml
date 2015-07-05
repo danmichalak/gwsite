@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>Monomyth of Ages RSS</title>
+		<link>http://graceswings.com/#/</link>
+		<description>Grace's Wings RSS Feed</description>
+		<item>
+			<title>Monomyth of Ages Chapter 1</title>
+			<link>http://45.55.185.199/#/comics/monomyth/1</link>
+			<description></description>
+		</item>	
+	</channel>
+</rss>
