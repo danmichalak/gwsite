@@ -1075,7 +1075,26 @@
 			},
 			{
 				"name": "Faith",
-				"notes": "Oh no THEY'RE HOT"
+				"notes": "Oh no THEY'RE HOT."
+			}
+		]
+	},	
+	{
+		"book": "gw",
+		"page": 66,
+		"chapter": 3,
+		"chapterPage": 18,
+		"year": 2015,
+		"month": 7,
+		"day": 8,
+		"authors": [
+			{
+				"name": "Faith",
+				"notes": "Drawing Nadia's shirt is the greatest gift this comic has given me."
+			},
+			{
+				"name": "Dan",
+				"notes": "That shirt is gonna get Nadia killed some day."
 			}
 		]
 	}
