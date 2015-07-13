@@ -1097,5 +1097,20 @@
 				"notes": "That shirt is gonna get Nadia killed some day."
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 67,
+		"chapter": 3,
+		"chapterPage": 18,
+		"year": 2015,
+		"month": 7,
+		"day": 13,
+		"authors": [
+			{
+				"name": "Dan",
+				"notes": "I DID IT I POSTED A COMIC ON TIME"
+			}
+		]
 	}
 ]
