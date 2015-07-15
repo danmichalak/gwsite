@@ -1112,5 +1112,15 @@
 				"notes": "I DID IT I POSTED A COMIC ON TIME"
 			}
 		]
+	},	
+	{
+		"book": "gw",
+		"page": 68,
+		"chapter": 3,
+		"chapterPage": 19,
+		"year": 2015,
+		"month": 7,
+		"day": 15,
+		"authors": []
 	}
 ]
